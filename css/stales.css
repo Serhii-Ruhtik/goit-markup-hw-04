@@ -181,7 +181,8 @@ img {
 
   background-color: rgba(47, 48, 58, 0.4);
   background-image: url(/img/icon/Img-main.svg);
-
+  background-position: center;
+background-repeat: no-repeat;
   transform: uppercase;
   text-transform: uppercase;
 
@@ -284,6 +285,15 @@ img {
   margin-bottom: 0;
   text-align: center;
   margin-bottom: 30px;
+}
+
+/* ICON COMAND */
+.icon-comand{
+  display: inline-block;
+  height: 20px;
+}
+.icon-comand-use{
+  display: block;
 }
 
 .footer {
