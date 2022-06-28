@@ -46,6 +46,15 @@ img {
   align-items: center;
   margin-left: 93px;
 }
+.text-note.contact-header::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+
+  background-color: red;
+  background-image: url(/img/icon/email.svg);
+  background-size: contain;
+}
 .footer {
   padding-top: 60px;
 }
