@@ -58,9 +58,15 @@ img {
 .icon-email {
   margin-right: 10px;
   fill: currentColor;
-  width: 16px;
-  height: 12px;
 }
+
+/* .icon-use{
+  display: inline-block;
+  align-items: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 
 .tel {
   display: flex;
@@ -100,6 +106,9 @@ img {
 } */
 
 .footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding-top: 60px;
 }
 
@@ -420,6 +429,54 @@ img {
   background-color: var(--color-hero-footer);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-flax {
+  display: flex;
+}
+
+.footer-join-in {
+  margin-left: 70px;
+}
+
+.join-in {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.join-in-list {
+  display: flex;
+  list-style: none;
+}
+
+.join-in-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.link-join-in {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+}
+.link-join-in:hover,
+.link-join-in:focus{
+  background-color: var(--acsent-text-color);
+}
+
+.madia-join-in{
+  fill: var(--color-white);
 }
 
 .slogan {
