@@ -226,9 +226,9 @@ img {
 
 .hero {
   background-color: var(--color-hero-footer);
-
-  background-color: rgba(47, 48, 58, 0.4);
-  background-image: url(./img/icon/Img-main.svg);
+  background-image: url(../img/hero/hero.jpg);
+  background-image: rgba(47, 48, 58, 0.4);
+  
   background-position: center;
   background-repeat: no-repeat;
   transform: uppercase;
@@ -290,16 +290,27 @@ img {
   clip: rect(0 0 0 0);
 }
 
-.antenna::before {
-  background-image: url(../img/);
-  background-repeat: no-repeat;
+.item-main-features::before {
+  content: "";
 
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+
+  border-radius: 4px;
+}
+
+
+.antenna::before {
+  background-image: url(../img/icon/antenna.svg);
+  background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 
 .clock::before {
-  background-image: url(../img/icon/clock1.svg);
+  background-image: url(../img/icon/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -598,16 +609,7 @@ img {
   margin-right: 0;
 }
 
-.item-main-features::before {
-  content: "";
 
-  display: block;
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-
-  border-radius: 4px;
-}
 
 
 .section-margin {
