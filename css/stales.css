@@ -580,7 +580,7 @@ img {
 }
 
 .antenna::before {
-  background-image: url(/img/icon/antenna1.svg);
+  background-image: url(./img/icon/antenna1.svg);
   background-repeat: no-repeat;
 
   background-position: center;
@@ -588,21 +588,21 @@ img {
 }
 
 .clock::before {
-  background-image: url(/img/icon/clock1.svg);
+  background-image: url(./img/icon/clock1.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 
 .diagram::before {
-  background-image: url(/img/icon/diagram\ 1.svg);
+  background-image: url(./img/icon/diagram\ 1.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 
 .astronaut::before {
-  background-image: url(/img/icon/astronaut\ 1.svg);
+  background-image: url(./img/icon/astronaut\ 1.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
