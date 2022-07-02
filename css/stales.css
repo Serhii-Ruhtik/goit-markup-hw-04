@@ -580,7 +580,7 @@ img {
 }
 
 .antenna::before {
-  background-image: url(./img/icon/antenna1.svg);
+  background-image: url(.//img/icon/antenna1.svg);
   background-repeat: no-repeat;
 
   background-position: center;
