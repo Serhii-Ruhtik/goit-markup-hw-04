@@ -228,7 +228,7 @@ img {
   background-color: var(--color-hero-footer);
 
   background-color: rgba(47, 48, 58, 0.4);
-  background-image: url(/img/icon/Img-main.svg);
+  background-image: url(./img/icon/Img-main.svg);
   background-position: center;
   background-repeat: no-repeat;
   transform: uppercase;
@@ -289,6 +289,36 @@ img {
   border: 0;
   clip: rect(0 0 0 0);
 }
+
+.antenna::before {
+  background-image: url(./img/icon/antenna1.svg);
+  background-repeat: no-repeat;
+
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.clock::before {
+  background-image: url(./img/icon/clock1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.diagram::before {
+  background-image: url(./img/icon/diagram\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.astronaut::before {
+  background-image: url(./img/icon/astronaut\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
 
 .caption {
   margin-bottom: 50px;
@@ -579,34 +609,6 @@ img {
   border-radius: 4px;
 }
 
-.antenna::before {
-  background-image: url(.//img/icon/antenna1.svg);
-  background-repeat: no-repeat;
-
-  background-position: center;
-  margin-bottom: 30px;
-}
-
-.clock::before {
-  background-image: url(./img/icon/clock1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-}
-
-.diagram::before {
-  background-image: url(./img/icon/diagram\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-}
-
-.astronaut::before {
-  background-image: url(./img/icon/astronaut\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
-}
 
 .section-margin {
   padding-top: 94px;
