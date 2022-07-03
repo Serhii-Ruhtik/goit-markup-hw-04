@@ -1,384 +1,592 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/stales.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Студія</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/stales.css" />
-</head>
+  <body>
+    <!--HEADER-->
 
-<body>
-  <!--HEADER-->
-
-  <header class="">
-    <div class="container header-contact">
-      <nav class="header-contact">
-        <a class="text-note fonts" href="./index.html">
-          <span class="color-logo">Web</span>Studio</a>
-        <ul class="header-list">
-          <li class="item">
-            <a class="text-note current" href="./index.html">Студия</a>
+    <header class="">
+      <div class="container header-contact">
+        <nav class="header-contact">
+          <a class="text-note fonts" href="./index.html">
+            <span class="color-logo">Web</span>Studio</a
+          >
+          <ul class="header-list">
+            <li class="item">
+              <a class="text-note current" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="text-note portfolio" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="item">
+              <a class="text-note text-contact" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="content-list list">
+          <li class="item-contact-header">
+            <a
+              class="text-note contact-header email"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="icon-email" width="16" height="12">
+                <use
+                  class="icon-use"
+                  href="./img/symbol-defs.svg#email"
+                ></use></svg
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="item">
-            <a class="text-note portfolio" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="item">
-            <a class="text-note text-contact" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="content-list list">
-        <li class="item-contact-header">
-          <a class="text-note contact-header email" href="mailto:info@devstudio.com">
-            <svg class="icon-email" width="16" height="12">
-              <use class="icon-use" href="./img/symbol-defs.svg#email"></use>
-            </svg>info@devstudio.com</a>
-        </li>
-        <li class="item-contact-header">
-          <a class="text-note contact-header tel" href="tel:+380961111111"><svg class="icon-email" width="16"
-              height="12">
-              <use class="icon-use" href="./img/symbol-defs.svg#tel"></use>
-            </svg>+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-
-  <!--Main content-->
-
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
-        <button class="button" type="button">
-          <span class="button-text">Заказать услугу</span>
-        </button>
-      </div>
-    </section>
-
-    <section class="features section">
-      <div class="container">
-        <h2 class="section-two">Особенности</h2>
-        <ul class="list">
-          <li class="item-main-features antenna">
-            <h3 class="headline">Внимание к деталям</h3>
-            <p class="features-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="item-main-features clock">
-            <h3 class="headline">Пунктуальность</h3>
-            <p class="features-text">
-              Задача организации, в особенности же рамки и место обучения
-              кадров влечет за собой.
-            </p>
-          </li>
-          <li class="item-main-features diagram">
-            <h3 class="headline">Планирование</h3>
-            <p class="features-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="item-main-features astronaut">
-            <h3 class="headline">Современные технологии</h3>
-            <p class="features-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
+          <li class="item-contact-header">
+            <a class="text-note contact-header tel" href="tel:+380961111111"
+              ><svg class="icon-email" width="16" height="12">
+                <use
+                  class="icon-use"
+                  href="./img/symbol-defs.svg#tel"
+                ></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
-    </section>
+    </header>
 
-    <section class="section section-work">
-      <div class="container">
-        <h2 class="caption">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li class="item-main">
-            <img src="img/box1.jpg" alt="Написання сайту" width="370" />
-          </li>
-          <li class="item-main">
-            <img src="img/img(1).jpg" alt="Адаптація його до різний пристроїв" width="370" />
-          </li>
-          <li class="item-main">
-            <img src="img/img.jpg" alt="Створення дизайну" width="370" />
-          </li>
-        </ul>
-      </div>
-    </section>
+    <!--Main content-->
 
-    <section class="comand section">
-      <div class="container">
-        <h2 class="caption">Наша команда</h2>
-        <ul class="list">
-          <li class="comand item-main">
-            <img class="worker" src="img/Comand/img.jpg" alt="Ігорь Демьяненко" width="270" />
-
-            <h3 class="subject">Игорь Демьяненко</h3>
-            <p class="subtitle">Product Designer</p>
-            <ul class="list-comand">
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="comand item-main">
-            <img class="worker" src="img/Comand/img(1).jpg" alt="Ольга Репина" width="270" />
-            <h3 class="subject">Ольга Репина</h3>
-            <p class="subtitle">Frontend Developer</p>
-            <ul class="list-comand">
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="comand item-main">
-            <img class="worker" src="img/Comand/img(2).jpg" alt="Николай Тарасов" width="270" />
-            <h3 class="subject">Николай Тарасов</h3>
-            <p class="subtitle">Marketing</p>
-            <ul class="list-comand">
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="comand item-main">
-            <img class="worker" src="img/Comand/img(3).jpg" alt="Михаил Ермаков" width="270" />
-            <h3 class="subject">Михаил Ермаков</h3>
-            <p class="subtitle">UI Designer</p>
-            <ul class="list-comand">
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg class="icon-comand-media" width="20" height="20">
-                    <use href="./img/symbol-defs.svg#twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="item-icon-comand">
-                <a class="icon-comand" href="" target="_blank" rel="noopener noreferrer" aria-label="inctagram">
-                  <svg width="20" height="20">
-                    <use class="icon-comand-media" href="./img/symbol-defs.svg#linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Section-Regular-Customers -->
-
-    <section class="section-margin">
-      <div class="container">
-        <h2 class="caption">Постоянные клиенты</h2>
-        <ul class="regular-customers">
-          <li class="item-regular-customers">
-            <a class="media-regular-customers" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="icon-customers-media" width="106" height="60">
-                <use href="./img/regular-customers/symbol-defs.svg#yaco"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-regular-customers">
-            <a class="media-regular-customers" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="icon-customers-media" width="106" height="60">
-                <use href="./img/regular-customers/symbol-defs.svg#company"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-regular-customers">
-            <a class="media-regular-customers" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="icon-customers-media" width="106" height="60">
-                <use href="./img/regular-customers/symbol-defs.svg#company2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-regular-customers">
-            <a class="media-regular-customers" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="icon-customers-media" width="106" height="60">
-                <use href="./img/regular-customers/symbol-defs.svg#forster-peters"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-regular-customers">
-            <a class="media-regular-customers" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="icon-customers-media" width="106" height="60">
-                <use href="./img/regular-customers/symbol-defs.svg#brand"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-regular-customers">
-            <a class="media-regular-customers" href="" target="_blank" rel="noopener noreferrer">
-              <svg class="icon-customers-media" width="106" height="60">
-                <use href="./img/regular-customers/symbol-defs.svg#tag-line"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-container">
-        <div>
-          <a class="text-note fonts" href="/">
-            <span class="color-logo">Web</span>
-            <span class="slogan">Studio</span></a>
-          <address>
-            <ul class="footer-list">
-              <li>
-                <p class="tagline">г. Киев, пр-т Леси Украинки, 26</p>
-              </li>
-              <li class="item-mail">
-                <a class="text-note contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li class="item-tel">
-                <a class="text-note contact" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </address>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
+          <button class="button" type="button">
+            <span class="button-text">Заказать услугу</span>
+          </button>
         </div>
+      </section>
 
-        <div class="footer-join-in">
-          <h2 class="join-in">Присоединяйтесь</h2>
-          <ul class="join-in-list">
-            <li class="join-in-item">
-              <a class="link-join-in" href="">
-                <svg class="madia-join-in" width="20" height="20">
-                  <use href="./img/symbol-defs.svg#instagram"></use>
+      <section class="features section">
+        <div class="container">
+          <h2 class="section-two">Особенности</h2>
+          <ul class="list">
+            <li class="item-main-features antenna">
+              <h3 class="headline">Внимание к деталям</h3>
+              <p class="features-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item-main-features clock">
+              <h3 class="headline">Пунктуальность</h3>
+              <p class="features-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item-main-features diagram">
+              <h3 class="headline">Планирование</h3>
+              <p class="features-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item-main-features astronaut">
+              <h3 class="headline">Современные технологии</h3>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-work">
+        <div class="container">
+          <h2 class="caption">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li class="item-main">
+              <img src="img/box1.jpg" alt="Написання сайту" width="370" />
+            </li>
+            <li class="item-main">
+              <img
+                src="img/img(1).jpg"
+                alt="Адаптація його до різний пристроїв"
+                width="370"
+              />
+            </li>
+            <li class="item-main">
+              <img src="img/img.jpg" alt="Створення дизайну" width="370" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="comand section">
+        <div class="container">
+          <h2 class="caption">Наша команда</h2>
+          <ul class="list">
+            <li class="comand item-main">
+              <img
+                class="worker"
+                src="img/Comand/img.jpg"
+                alt="Ігорь Демьяненко"
+                width="270"
+              />
+
+              <h3 class="subject">Игорь Демьяненко</h3>
+              <p class="subtitle">Product Designer</p>
+              <ul class="list-comand">
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="comand item-main">
+              <img
+                class="worker"
+                src="img/Comand/img(1).jpg"
+                alt="Ольга Репина"
+                width="270"
+              />
+              <h3 class="subject">Ольга Репина</h3>
+              <p class="subtitle">Frontend Developer</p>
+              <ul class="list-comand">
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="comand item-main">
+              <img
+                class="worker"
+                src="img/Comand/img(2).jpg"
+                alt="Николай Тарасов"
+                width="270"
+              />
+              <h3 class="subject">Николай Тарасов</h3>
+              <p class="subtitle">Marketing</p>
+              <ul class="list-comand">
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="comand item-main">
+              <img
+                class="worker"
+                src="img/Comand/img(3).jpg"
+                alt="Михаил Ермаков"
+                width="270"
+              />
+              <h3 class="subject">Михаил Ермаков</h3>
+              <p class="subtitle">UI Designer</p>
+              <ul class="list-comand">
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg class="icon-comand-media" width="20" height="20">
+                      <use href="./img/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#facebook"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="item-icon-comand">
+                  <a
+                    class="icon-comand"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="inctagram"
+                  >
+                    <svg width="20" height="20">
+                      <use
+                        class="icon-comand-media"
+                        href="./img/symbol-defs.svg#linkedin"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section-Regular-Customers -->
+
+      <section class="section-margin">
+        <div class="container">
+          <h2 class="caption">Постоянные клиенты</h2>
+          <ul class="regular-customers">
+            <li class="item-regular-customers">
+              <a
+                class="media-regular-customers"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-customers-media" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#yaco"
+                  ></use>
                 </svg>
               </a>
             </li>
-            <li class="join-in-item">
-              <a class="link-join-in" href="">
-                <svg class="madia-join-in" width="20" height="20">
-                  <use href="./img/symbol-defs.svg#twitter"></use>
+            <li class="item-regular-customers">
+              <a
+                class="media-regular-customers"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-customers-media" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#company"
+                  ></use>
                 </svg>
               </a>
             </li>
-            <li class="join-in-item">
-              <a class="link-join-in" href="">
-                <svg class="madia-join-in" width="20" height="20">
-                  <use href="./img/symbol-defs.svg#facebook"></use>
+            <li class="item-regular-customers">
+              <a
+                class="media-regular-customers"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-customers-media" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#company2"
+                  ></use>
                 </svg>
               </a>
             </li>
-            <li class="join-in-item">
-              <a class="link-join-in" href="">
-                <svg class="madia-join-in" width="20" height="20">
-                  <use href="./img/symbol-defs.svg#linkedin"></use>
+            <li class="item-regular-customers">
+              <a
+                class="media-regular-customers"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-customers-media" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#forster-peters"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-regular-customers">
+              <a
+                class="media-regular-customers"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-customers-media" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#brand"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-regular-customers">
+              <a
+                class="media-regular-customers"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon-customers-media" width="106" height="60">
+                  <use
+                    href="./img/regular-customers/symbol-defs.svg#tag-line"
+                  ></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-      </div>
-  </footer>
-</body>
+      </section>
+    </main>
 
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div>
+            <a class="text-note fonts" href="/">
+              <span class="color-logo">Web</span>
+              <span class="slogan">Studio</span></a
+            >
+            <address>
+              <ul class="footer-list">
+                <li>
+                  <p class="tagline">г. Киев, пр-т Леси Украинки, 26</p>
+                </li>
+                <li class="item-mail">
+                  <a class="text-note contact" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="item-tel">
+                  <a class="text-note contact" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="footer-join-in">
+            <h2 class="join-in">Присоединяйтесь</h2>
+            <ul class="join-in-list">
+              <li class="join-in-item">
+                <a class="link-join-in" href="">
+                  <svg class="madia-join-in" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-in-item">
+                <a class="link-join-in" href="">
+                  <svg class="madia-join-in" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-in-item">
+                <a class="link-join-in" href="">
+                  <svg class="madia-join-in" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="join-in-item">
+                <a class="link-join-in" href="">
+                  <svg class="madia-join-in" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
