@@ -195,9 +195,9 @@ img {
   padding-bottom: 30px;
 }
 
-.item-contact-header {
+/* .item-contact-header {
   margin-left: 50px;
-}
+} */
 
 .text-note.fonts:hover {
   color: var(--primary-text-color);
@@ -226,14 +226,14 @@ img {
 
 .hero {
   background-color: var(--color-hero-footer);
-  background-image: url(../img/hero/hero.jpg);
-  background-image: rgba(47, 48, 58, 0.4);
-  
+
+ background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero.jpg);
+  background-color: rgba(47, 48, 58, 0.4);
   background-position: center;
   background-repeat: no-repeat;
-  transform: uppercase;
   text-transform: uppercase;
-
+  max-width: 1600px;
+  margin: auto;
   text-align: center;
   padding: 200px 0px 200px 0px;
 }
@@ -301,7 +301,6 @@ img {
   border-radius: 4px;
 }
 
-
 .antenna::before {
   background-image: url(../img/icon/antenna.svg);
   background-repeat: no-repeat;
@@ -329,7 +328,6 @@ img {
   background-position: center;
   margin-bottom: 30px;
 }
-
 
 .caption {
   margin-bottom: 50px;
@@ -388,7 +386,7 @@ img {
   color: var(--secondary-text-color);
   margin-bottom: 0;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 /* ICON COMAND */
@@ -456,13 +454,19 @@ img {
   outline: solid 1px var(--acsent-text-color);
 }
 
+.media-regular-customers:hover .icon-customers-media,
+.media-regular-customers:focus .icon-customers-media{
+  fill: var(--acsent-text-color);
+}
+
+
 .icon-customers-media {
   fill: var(--color-icon);
 }
-.icon-customers-media:hover,
+/* .icon-customers-media:hover,
 .icon-customers-media:focus {
   fill: var(--acsent-text-color);
-}
+} */
 
 /* FOOTER */
 
@@ -512,11 +516,11 @@ img {
   justify-content: center;
 }
 .link-join-in:hover,
-.link-join-in:focus{
+.link-join-in:focus {
   background-color: var(--acsent-text-color);
 }
 
-.madia-join-in{
+.madia-join-in {
   fill: var(--color-white);
 }
 
@@ -609,9 +613,6 @@ img {
   margin-right: 0;
 }
 
-
-
-
 .section-margin {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -639,6 +640,10 @@ img {
 .item-portfolio > .control {
   border-radius: 4px;
 }
+.control:hover {
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
 
 .flex-container {
   display: flex;
@@ -660,6 +665,12 @@ img {
   margin-right: 30px;
   width: 370px;
   margin-bottom: 30px;
+
+}
+
+.flex-element:hover{
+box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .flex-element:nth-child(3n) {
